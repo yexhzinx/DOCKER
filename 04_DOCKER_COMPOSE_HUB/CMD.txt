@@ -1,0 +1,12 @@
+# TAG 추가
+docker tag bn   yexhzinx/yejin:bn
+docker tag fn   yexhzinx/yejin:fn
+docker tag redis   yexhzinx/yejin:redis
+docker tag db   yexhzinx/yejin:db
+
+
+# PUSH
+docker push yexhzinx/yejin:bn
+docker push yexhzinx/yejin:fn
+docker push yexhzinx/yejin:redis
+docker push yexhzinx/yejin:db
